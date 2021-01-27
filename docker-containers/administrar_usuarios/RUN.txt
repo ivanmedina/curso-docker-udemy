@@ -1,0 +1,2 @@
+sudo docker run -d --name apache -p 10000:80 httpd
+sudo docker cp index.html apache_copy_to:/usr/local/apache2/htdocs/index.html

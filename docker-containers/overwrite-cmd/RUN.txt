@@ -1,0 +1,2 @@
+sudo docker run -d -p 6060:8080 --name overwrite_cmd commit_resultado python -m SimpleHTTPServer 8080
+sudo docker run --rm -p 6060:8080 --name overwrite_cmd commit_resultado python -m SimpleHTTPServer 8080 #CONTENTEDOR TEMPORAL --rm

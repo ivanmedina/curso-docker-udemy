@@ -1,0 +1,12 @@
+ 1251  vi Dockerfile
+ 1252  sudo docker build -t centos-commit .
+ 1253  sudo docker run -dti --name commit_01 centos-commit
+ 1254  sudo docker exec -ti centos_commit_01 bash
+ 1255  sudo docker exec -ti commit_01 bash
+ 1256  sudo docker commit commit_01 commit_resultado
+ 1257  sudo docker ps
+ 1258  sudo docker images
+ 1259  sudo docker rm -fv commit_01
+ 1260  sudo docker run -dti --name commit_resutado commit_resultado /bin/bash
+ 1261  sudo docker exec -it commit_resutado bash
+

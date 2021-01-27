@@ -1,0 +1,1 @@
+mysql -u docker -h 172.17.0.3 --port 3306 -pdocker

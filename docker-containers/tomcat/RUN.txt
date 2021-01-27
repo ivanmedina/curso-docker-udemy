@@ -1,0 +1,1 @@
+sudo docker run -d -p 7070:8080 --name tomcat tomcat:9.0.8-jre8-alpine
