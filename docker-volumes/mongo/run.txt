@@ -1,0 +1,51 @@
+ 1384  sudo docker volume ls
+ 1385  ls
+ 1386  cd docker-udemy/
+ 1387  ls
+ 1388  cd docker-volumes/
+ 1389  ls
+ 1390  mkdir mongo
+ 1391  cd mongo/
+ 1392  ls
+ 1393  mkdir data
+ 1394  pwd
+ 1395  sudo docker volume ls -f dangling=true -q
+ 1396  sudo docker volume ls -f -q
+ 1397  sudo docker volume ls -q
+ 1398  sudo docker volume ls -q | sudo xargs volume rm
+ 1399  sudo docker volume ls -q | sudo xarg volume rm
+ 1400  sudo docker volume ls -q | xargs volume rm
+ 1401  sudo docker volume ls -q | xargs docker volume rm
+ 1402* sudo docker volume ls -q | xargs docker 
+ 1403  sudo docker volume ls -q | sudo xargs docker volume rm
+ 1404  sudo docker stop 
+ 1405  sudo docker ps -q | sudo xargs docker stop
+ 1406  sudo docker volume ls -q | sudo xargs docker volume rm
+ 1407  sudo docker volume ls -q | sudo xargs sudo docker volume rm
+ 1408  sudo docker volume ls -q | sudo xargs docker volume rm
+ 1409  sudo docker volume ls -q | sudo xargs docker volume rm -f
+ 1410  sudo docker volume ls -f dangling=true -q | sudo xargs docker volume rm
+ 1411  sudo docker run -d --name mongo_volumen -p 27017:27017 -v /home/user/docker-udemy/docker-volumes/mongo/data:data/db mongo
+ 1412  sudo docker run -d --name mongo_volumen -p 27017:27017 -v /home/user/docker-udemy/docker-volumes/mongo/data:data/db mongo mongo
+ 1413  sudo docker run -d --name mongo_volumen -p 27017:27017 -v /home/user/docker-udemy/docker-volumes/mongo/data:/data/db mongo mongo
+ 1414  sudo docker mongo_voumen
+ 1415  sudo docker exec -ti mongo_volumen bash
+ 1416  sudo docker logs mogo_volumen
+ 1417  sudo docker logs mongo_volumen
+ 1418  sudo docker ps
+ 1419  sudo docker ps -a
+ 1420  sudo docker images
+ 1421  sudo docker rm -vf mongo_volumen
+ 1422* pw
+ 1423  sudo docker run -d -p 27017:27017 --name mongo_db -v /home/user/docker-udemy/docker-volumes/mongo/data:/data/db mongo
+ 1424  sudo docker logs -f mongo_db
+ 1425  sudo docker exec -ti mongo_db bash
+ 1426  sudo docker rm -fv $(docker ps -aq)
+ 1427  sudo docker run -d -p 27017:27017 --name mongo_db -v /home/user/docker-udemy/docker-volumes/mongo/data:/data/db mongo
+ 1428  ls
+ 1429  cd data/
+ 1430  ls
+ 1431  cd ..
+ 1432  sudo docker exec -ti mongo_db bash
+ 1433  history 50
+

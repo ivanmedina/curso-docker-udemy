@@ -1,0 +1,10 @@
+crear/liminar
+
+tipo
+	bridge
+	host
+	none
+	overlay
+
+conectar contenedores
+

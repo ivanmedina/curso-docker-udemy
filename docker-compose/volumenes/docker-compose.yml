@@ -1,0 +1,9 @@
+service: '3'
+services:
+        web:
+           container_name: nginx
+           ports:
+                   - "8080:80"
+           image: nginx
+volumes:
+        vol2:

@@ -1,0 +1,19 @@
+VERSION: '3'
+SERVICES:
+        web1:
+                container_name: servidor_01
+                ports:
+                        - "8090:80"
+                image: httpd
+                networks:
+                        - net-test
+        web2:
+                container_name: servido2_02
+                ports:
+                        - "8091:80"
+                image: httpd
+                networks:
+                        - net-test
+
+NETWORKS:
+        net-test:        

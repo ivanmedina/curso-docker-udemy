@@ -1,0 +1,2 @@
+sudo docker run -d --name nginx_shared -p 8080:80 -v /home/user/docker-udemy/docker-volumes/volumenes_compartidos/data:/usr/share/nginx/html nginx:alpine
+sudo docker run -d -v /home/user/docker-udemy/docker-volumes/volumenes_compartidos/data:/opt --name generador shared:01

@@ -1,0 +1,39 @@
+ 1622  sudo docker create network test
+ 1623  sudo docker network create test
+ 1624  sudo docker network ls
+ 1625  sudo docker network create --help
+ 1626  sudo docker network create -d bridge --subnet 172.124.10.0/24 --gateway 172.124.10.1 docker-test-network
+ 1627  sudo docker network ls
+ 1628  sudo docker network inspect docker-test-network
+
+[
+    {
+        "Name": "docker-test-network",
+        "Id": "fa3e6dc61232799efb4cfa880ef5f763bf5226f6cfe7fde332b637968d2c6923",
+        "Created": "2021-01-27T20:52:01.08225659-06:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.124.10.0/24",
+                    "Gateway": "172.124.10.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {},
+        "Options": {},
+        "Labels": {}
+    }
+]
+sudo docker network cinnect docker-red imagen

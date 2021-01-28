@@ -1,0 +1,6 @@
+Los volumenes en docker ayudan a guardar informacion de manera persistente, ya que las imagenes tienen capas de solo lectura, toda la informacion se perdera, para eso necesitamos los volumenes, ya que lo que no este en ellos se perdera, a diferencia de los commit, donde en los commit no se preserva el volumen de una imagen padre a una hija, pero si se guarda la configuracion del build.
+
+Existen 3 tipo de volumenes:
+1- Host
+2- Anonymus
+3- Named Volumes
